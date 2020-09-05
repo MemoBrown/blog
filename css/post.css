@@ -1,3 +1,16 @@
+:root{
+  --orange-color: #234AFC;
+  --navy-color: #27272B;
+  --darkp-color: #881070;
+  --blue-color: #234AFC;
+  --purple-color: #FF00FF;
+  --dark-theme: #27272b;
+  --light-theme: #EDEEFF;
+  --black-color: #0A0A0C;
+  --color-top-right: #222;
+  --color-bottom-left: #000;
+}
+
 /* ----------------------------------------primer publicacion */
 .news-container{
     max-width: 1000px;
@@ -15,7 +28,7 @@
   }
   .news-container a:hover{
     cursor: pointer;
-    color: var(--darkp-color);
+    color: var(--purple-color);
     text-decoration: underline;
   }
   .video{
