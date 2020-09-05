@@ -1,0 +1,122 @@
+:root{
+    --blue-color: #234AFC;
+    --purple-color: #FF00FF;
+    --dark-theme: #27272b;
+    --light-theme: #EDEEFF;
+  --black-color: #0A0A0C;
+  --color-top-right: #222;
+    --color-bottom-left: #000;
+  }
+
+/* --------------------------responsive */
+@media screen and (max-width: 768px){
+    .logo img{
+      display: none;
+    }
+    .header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo2 img{
+      display: inherit;
+      width: 90px;
+      position: relative;
+      z-index: 1;
+      top: 0;
+      outline: none;
+      margin-left: -80px;
+    }
+  
+    .blog-hero{
+      margin: 20px 20px;
+    }
+    .blog{
+      flex-wrap: wrap;
+    }
+    .blog-imageContainer img{
+      width: 100%;
+      margin-right: 0;
+    }
+    .color-1{
+      display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .menu-mobile{
+        display: initial;
+    }
+    .footer-contain img{
+        width: 80px;
+    }
+    .footer-contain a {
+        margin: 5px;
+    }
+  
+    h1{
+        font-size: 1.5em;
+    }
+    .footer-contain {
+        margin: 20px;
+    }
+  
+  }
+  @media screen and (max-width: 576px){
+    .footer-contain{
+        flex-flow: column-reverse;
+    }
+    .footer-contain h4 {
+        letter-spacing: initial;
+    }
+  }
+  
+  @media screen and (max-width: 480px){
+    .blog-hero{
+      padding: 10px 0;
+    }
+    .hero-description{
+      font-size: 25px;
+    }
+    .blog{
+      margin: 20px 10px;
+    }
+    .blog-title{
+      font-size: 1.5em;
+    }
+    .blog-description{
+      font-size: 1.2em;
+    }
+    .links-socialmedia{
+      position: relative;
+      top: 0;
+    }
+  }
+
+  @media screen and (max-width: 426px){
+    .footer-contain img {
+        width: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 376px){
+    .footer-contain img {
+        width: 55px;
+    }
+    .footer-contain a {
+        margin: 5px;
+    }
+    .footer-contain h4 {
+        font-size: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .social-link {
+      width: 40px;
+      height: 40px;
+      background-size: 40px 40px;
+    }
+  }
+  /* --------------------------responsive */
+  

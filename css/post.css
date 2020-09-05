@@ -1,0 +1,129 @@
+/* ----------------------------------------primer publicacion */
+.news-container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .news-container img{
+    width: 600px;
+    padding: 50px 0;
+  }
+  .news-container a{
+    color: var(--orange-color);
+    transition: 300ms;
+    text-decoration: none;
+  }
+  .news-container a:hover{
+    cursor: pointer;
+    color: var(--darkp-color);
+    text-decoration: underline;
+  }
+  .video{
+    padding: 50px 0;
+  }
+  .title-news{
+    font-size: 45px;
+    text-align: center;
+    margin: 40px 10px;
+    padding: 20px 0;
+    color: var(--navy-color);
+  }
+  .image-news img{
+    background: #223945;
+  }
+  .news-description{
+    font-size: 25px;
+    color: var(--navy-color);
+    margin: 30px 0;
+    padding: 20px 0;
+  }
+  .list{
+    font-size: 25px;
+    color: var(--navy-color);
+  }
+  .news-description::selection{
+    background: var(--orange-color);
+    color: #fff;
+  }
+  .links-social{
+    position: fixed;
+    top: 150px;
+  }
+  
+  @media screen and (max-width: 767px){
+    .news-container{
+      max-width: 700px;
+    }
+    .news-container img{
+      width: 80%;
+    }
+    .links-social{
+      opacity: .4;
+    }
+    .links-social:hover{
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .news-container{
+      max-width: 1000px;
+      width: 90%;
+    }
+      .video iframe{
+      width: 95%;
+    }
+    .title-news{
+      font-size: 30px;
+    }
+    .news-description{
+      font-size: 20px;
+    }
+    .list{
+      font-size: 20px;
+    }
+    .links-social{
+      position: relative;
+      top: -10px;
+      opacity: 1;
+    }
+  }
+  /* ----------------------------------------primer publicacion */
+  
+  
+  /* --------------------------------------peliculas */
+  .movies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+  .item{
+    width: auto;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid var(--navy-color);
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--navy-color);
+  }
+  .item img{
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    transition: 300ms;
+  }
+  .item img:hover{
+    transform: scale(1.1);
+  }
+  @media screen and (max-width: 767px){
+    .movies{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width: 480px){
+    .movies{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  /* --------------------------------------peliculas */
